@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import FeaturedPost from './FeaturedPost';
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         My Music Blog
       </header>
     <div className="featuredPost">
-        <p>Featured post here</p>
+        <FeaturedPost/>
     </div>
     <div className="spotifyPlayer">
       <p>Spotify player here</p>
